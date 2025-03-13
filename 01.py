@@ -32,6 +32,9 @@ df[['sex', 'region']] = df[['sex', 'region']].apply(lambda x: x.str.strip().str.
 # Display dataset info
 print(df.info())
 
+
+# UNIVARIATE ANALYSIS
+
 # Plot data
 fig, axes = plt.subplots(2, 2, figsize=[12,12])
 
@@ -63,6 +66,8 @@ plt.subplots_adjust(hspace=0.4, wspace=0.3)
 
 # Show the plots
 # plt.show()
+
+# BIVARIATE ANALYSIS
 
 
 # Correlation Matrix for Age, Charges and BMI
@@ -102,6 +107,8 @@ plt.subplots_adjust(hspace=0.4, wspace=0.3)
 
 # Plot the data
 # plt.show()
+
+# MULTIVARIATE ANALYSIS
 
 
 # Convert BMI into categorical bins
