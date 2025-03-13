@@ -9,6 +9,7 @@ The dataset appears to contain records related to medical insurance costs and de
 •	Smoker (Yes/No): Whether the individual is a smoker.
 •	Region: The geographic region where the individual resides (e.g., Southwest, Southeast, Northwest, Northeast).
 •	Charges (Medical Expenses in USD): The total medical insurance cost for the individual.
+
 This dataset is useful for analyzing the impact of various factors (such as BMI, smoking habits, and region) on medical expenses and can be used for predictive modeling in healthcare cost analysis.
 
 
